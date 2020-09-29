@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23533E0224E4BD0D004EB7D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23533E0124E4BD0D004EB7D3 /* AppDelegate.swift */; };
+		23533E0424E4BD0D004EB7D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23533E0324E4BD0D004EB7D3 /* SceneDelegate.swift */; };
+		23533E0724E4BD0D004EB7D3 /* _in1_Telecom_Design_Studio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 23533E0524E4BD0D004EB7D3 /* _in1_Telecom_Design_Studio.xcdatamodeld */; };
+		23533E0924E4BD0D004EB7D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23533E0824E4BD0D004EB7D3 /* ContentView.swift */; };
+		23533E0B24E4BD0E004EB7D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23533E0A24E4BD0E004EB7D3 /* Assets.xcassets */; };
+		23533E0E24E4BD0E004EB7D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23533E0D24E4BD0E004EB7D3 /* Preview Assets.xcassets */; };
+		23533E1124E4BD0E004EB7D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23533E0F24E4BD0E004EB7D3 /* LaunchScreen.storyboard */; };
+		23533E1C24E4BD0E004EB7D3 /* _in1_Telecom_Design_StudioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23533E1B24E4BD0E004EB7D3 /* _in1_Telecom_Design_StudioTests.swift */; };
+		23533E2724E4BD0E004EB7D3 /* _in1_Telecom_Design_StudioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23533E2624E4BD0E004EB7D3 /* _in1_Telecom_Design_StudioUITests.swift */; };
+		23533E3524E4BDB7004EB7D3 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23533E3424E4BDB7004EB7D3 /* WebView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23533E1824E4BD0E004EB7D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23533DF624E4BD0D004EB7D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23533DFD24E4BD0D004EB7D3;
+			remoteInfo = "4in1 Telecom Design Studio";
+		};
+		23533E2324E4BD0E004EB7D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23533DF624E4BD0D004EB7D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23533DFD24E4BD0D004EB7D3;
+			remoteInfo = "4in1 Telecom Design Studio";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23533DFE24E4BD0D004EB7D3 /* 4in1 Telecom Design Studio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "4in1 Telecom Design Studio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23533E0124E4BD0D004EB7D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		23533E0324E4BD0D004EB7D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		23533E0624E4BD0D004EB7D3 /* _in1_Telecom_Design_Studio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = _in1_Telecom_Design_Studio.xcdatamodel; sourceTree = "<group>"; };
+		23533E0824E4BD0D004EB7D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		23533E0A24E4BD0E004EB7D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23533E0D24E4BD0E004EB7D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		23533E1024E4BD0E004EB7D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		23533E1224E4BD0E004EB7D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23533E1724E4BD0E004EB7D3 /* 4in1 Telecom Design StudioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "4in1 Telecom Design StudioTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23533E1B24E4BD0E004EB7D3 /* _in1_Telecom_Design_StudioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _in1_Telecom_Design_StudioTests.swift; sourceTree = "<group>"; };
+		23533E1D24E4BD0E004EB7D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23533E2224E4BD0E004EB7D3 /* 4in1 Telecom Design StudioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "4in1 Telecom Design StudioUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23533E2624E4BD0E004EB7D3 /* _in1_Telecom_Design_StudioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _in1_Telecom_Design_StudioUITests.swift; sourceTree = "<group>"; };
+		23533E2824E4BD0E004EB7D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23533E3424E4BDB7004EB7D3 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23533DFB24E4BD0D004EB7D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23533E1424E4BD0E004EB7D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23533E1F24E4BD0E004EB7D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23533DF524E4BD0D004EB7D3 = {
+			isa = PBXGroup;
+			children = (
+				23533E0024E4BD0D004EB7D3 /* 4in1 Telecom Design Studio */,
+				23533E1A24E4BD0E004EB7D3 /* 4in1 Telecom Design StudioTests */,
+				23533E2524E4BD0E004EB7D3 /* 4in1 Telecom Design StudioUITests */,
+				23533DFF24E4BD0D004EB7D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23533DFF24E4BD0D004EB7D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23533DFE24E4BD0D004EB7D3 /* 4in1 Telecom Design Studio.app */,
+				23533E1724E4BD0E004EB7D3 /* 4in1 Telecom Design StudioTests.xctest */,
+				23533E2224E4BD0E004EB7D3 /* 4in1 Telecom Design StudioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23533E0024E4BD0D004EB7D3 /* 4in1 Telecom Design Studio */ = {
+			isa = PBXGroup;
+			children = (
+				23533E0124E4BD0D004EB7D3 /* AppDelegate.swift */,
+				23533E0324E4BD0D004EB7D3 /* SceneDelegate.swift */,
+				23533E3424E4BDB7004EB7D3 /* WebView.swift */,
+				23533E0824E4BD0D004EB7D3 /* ContentView.swift */,
+				23533E0A24E4BD0E004EB7D3 /* Assets.xcassets */,
+				23533E0F24E4BD0E004EB7D3 /* LaunchScreen.storyboard */,
+				23533E1224E4BD0E004EB7D3 /* Info.plist */,
+				23533E0524E4BD0D004EB7D3 /* _in1_Telecom_Design_Studio.xcdatamodeld */,
+				23533E0C24E4BD0E004EB7D3 /* Preview Content */,
+			);
+			path = "4in1 Telecom Design Studio";
+			sourceTree = "<group>";
+		};
+		23533E0C24E4BD0E004EB7D3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				23533E0D24E4BD0E004EB7D3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		23533E1A24E4BD0E004EB7D3 /* 4in1 Telecom Design StudioTests */ = {
+			isa = PBXGroup;
+			children = (
+				23533E1B24E4BD0E004EB7D3 /* _in1_Telecom_Design_StudioTests.swift */,
+				23533E1D24E4BD0E004EB7D3 /* Info.plist */,
+			);
+			path = "4in1 Telecom Design StudioTests";
+			sourceTree = "<group>";
+		};
+		23533E2524E4BD0E004EB7D3 /* 4in1 Telecom Design StudioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				23533E2624E4BD0E004EB7D3 /* _in1_Telecom_Design_StudioUITests.swift */,
+				23533E2824E4BD0E004EB7D3 /* Info.plist */,
+			);
+			path = "4in1 Telecom Design StudioUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23533DFD24E4BD0D004EB7D3 /* 4in1 Telecom Design Studio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23533E2B24E4BD0E004EB7D3 /* Build configuration list for PBXNativeTarget "4in1 Telecom Design Studio" */;
+			buildPhases = (
+				23533DFA24E4BD0D004EB7D3 /* Sources */,
+				23533DFB24E4BD0D004EB7D3 /* Frameworks */,
+				23533DFC24E4BD0D004EB7D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "4in1 Telecom Design Studio";
+			productName = "4in1 Telecom Design Studio";
+			productReference = 23533DFE24E4BD0D004EB7D3 /* 4in1 Telecom Design Studio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23533E1624E4BD0E004EB7D3 /* 4in1 Telecom Design StudioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23533E2E24E4BD0E004EB7D3 /* Build configuration list for PBXNativeTarget "4in1 Telecom Design StudioTests" */;
+			buildPhases = (
+				23533E1324E4BD0E004EB7D3 /* Sources */,
+				23533E1424E4BD0E004EB7D3 /* Frameworks */,
+				23533E1524E4BD0E004EB7D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23533E1924E4BD0E004EB7D3 /* PBXTargetDependency */,
+			);
+			name = "4in1 Telecom Design StudioTests";
+			productName = "4in1 Telecom Design StudioTests";
+			productReference = 23533E1724E4BD0E004EB7D3 /* 4in1 Telecom Design StudioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		23533E2124E4BD0E004EB7D3 /* 4in1 Telecom Design StudioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23533E3124E4BD0E004EB7D3 /* Build configuration list for PBXNativeTarget "4in1 Telecom Design StudioUITests" */;
+			buildPhases = (
+				23533E1E24E4BD0E004EB7D3 /* Sources */,
+				23533E1F24E4BD0E004EB7D3 /* Frameworks */,
+				23533E2024E4BD0E004EB7D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23533E2424E4BD0E004EB7D3 /* PBXTargetDependency */,
+			);
+			name = "4in1 Telecom Design StudioUITests";
+			productName = "4in1 Telecom Design StudioUITests";
+			productReference = 23533E2224E4BD0E004EB7D3 /* 4in1 Telecom Design StudioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23533DF624E4BD0D004EB7D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					23533DFD24E4BD0D004EB7D3 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					23533E1624E4BD0E004EB7D3 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 23533DFD24E4BD0D004EB7D3;
+					};
+					23533E2124E4BD0E004EB7D3 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 23533DFD24E4BD0D004EB7D3;
+					};
+				};
+			};
+			buildConfigurationList = 23533DF924E4BD0D004EB7D3 /* Build configuration list for PBXProject "4in1 Telecom Design Studio" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23533DF524E4BD0D004EB7D3;
+			productRefGroup = 23533DFF24E4BD0D004EB7D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23533DFD24E4BD0D004EB7D3 /* 4in1 Telecom Design Studio */,
+				23533E1624E4BD0E004EB7D3 /* 4in1 Telecom Design StudioTests */,
+				23533E2124E4BD0E004EB7D3 /* 4in1 Telecom Design StudioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23533DFC24E4BD0D004EB7D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23533E1124E4BD0E004EB7D3 /* LaunchScreen.storyboard in Resources */,
+				23533E0E24E4BD0E004EB7D3 /* Preview Assets.xcassets in Resources */,
+				23533E0B24E4BD0E004EB7D3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23533E1524E4BD0E004EB7D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23533E2024E4BD0E004EB7D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23533DFA24E4BD0D004EB7D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23533E0224E4BD0D004EB7D3 /* AppDelegate.swift in Sources */,
+				23533E3524E4BDB7004EB7D3 /* WebView.swift in Sources */,
+				23533E0724E4BD0D004EB7D3 /* _in1_Telecom_Design_Studio.xcdatamodeld in Sources */,
+				23533E0924E4BD0D004EB7D3 /* ContentView.swift in Sources */,
+				23533E0424E4BD0D004EB7D3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23533E1324E4BD0E004EB7D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23533E1C24E4BD0E004EB7D3 /* _in1_Telecom_Design_StudioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23533E1E24E4BD0E004EB7D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23533E2724E4BD0E004EB7D3 /* _in1_Telecom_Design_StudioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23533E1924E4BD0E004EB7D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23533DFD24E4BD0D004EB7D3 /* 4in1 Telecom Design Studio */;
+			targetProxy = 23533E1824E4BD0E004EB7D3 /* PBXContainerItemProxy */;
+		};
+		23533E2424E4BD0E004EB7D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23533DFD24E4BD0D004EB7D3 /* 4in1 Telecom Design Studio */;
+			targetProxy = 23533E2324E4BD0E004EB7D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23533E0F24E4BD0E004EB7D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23533E1024E4BD0E004EB7D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23533E2924E4BD0E004EB7D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23533E2A24E4BD0E004EB7D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23533E2C24E4BD0E004EB7D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"4in1 Telecom Design Studio/Preview Content\"";
+				DEVELOPMENT_TEAM = 836NUPNHQM;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "4in1 Telecom Design Studio/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Four-in-One-Telecommunication.-in1-Telecom-Design-Studio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23533E2D24E4BD0E004EB7D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"4in1 Telecom Design Studio/Preview Content\"";
+				DEVELOPMENT_TEAM = 836NUPNHQM;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "4in1 Telecom Design Studio/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Four-in-One-Telecommunication.-in1-Telecom-Design-Studio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		23533E2F24E4BD0E004EB7D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 836NUPNHQM;
+				INFOPLIST_FILE = "4in1 Telecom Design StudioTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Four-in-One-Telecommunication.-in1-Telecom-Design-StudioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/4in1 Telecom Design Studio.app/4in1 Telecom Design Studio";
+			};
+			name = Debug;
+		};
+		23533E3024E4BD0E004EB7D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 836NUPNHQM;
+				INFOPLIST_FILE = "4in1 Telecom Design StudioTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Four-in-One-Telecommunication.-in1-Telecom-Design-StudioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/4in1 Telecom Design Studio.app/4in1 Telecom Design Studio";
+			};
+			name = Release;
+		};
+		23533E3224E4BD0E004EB7D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 836NUPNHQM;
+				INFOPLIST_FILE = "4in1 Telecom Design StudioUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Four-in-One-Telecommunication.-in1-Telecom-Design-StudioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "4in1 Telecom Design Studio";
+			};
+			name = Debug;
+		};
+		23533E3324E4BD0E004EB7D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 836NUPNHQM;
+				INFOPLIST_FILE = "4in1 Telecom Design StudioUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Four-in-One-Telecommunication.-in1-Telecom-Design-StudioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "4in1 Telecom Design Studio";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23533DF924E4BD0D004EB7D3 /* Build configuration list for PBXProject "4in1 Telecom Design Studio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23533E2924E4BD0E004EB7D3 /* Debug */,
+				23533E2A24E4BD0E004EB7D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23533E2B24E4BD0E004EB7D3 /* Build configuration list for PBXNativeTarget "4in1 Telecom Design Studio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23533E2C24E4BD0E004EB7D3 /* Debug */,
+				23533E2D24E4BD0E004EB7D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23533E2E24E4BD0E004EB7D3 /* Build configuration list for PBXNativeTarget "4in1 Telecom Design StudioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23533E2F24E4BD0E004EB7D3 /* Debug */,
+				23533E3024E4BD0E004EB7D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23533E3124E4BD0E004EB7D3 /* Build configuration list for PBXNativeTarget "4in1 Telecom Design StudioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23533E3224E4BD0E004EB7D3 /* Debug */,
+				23533E3324E4BD0E004EB7D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		23533E0524E4BD0D004EB7D3 /* _in1_Telecom_Design_Studio.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				23533E0624E4BD0D004EB7D3 /* _in1_Telecom_Design_Studio.xcdatamodel */,
+			);
+			currentVersion = 23533E0624E4BD0D004EB7D3 /* _in1_Telecom_Design_Studio.xcdatamodel */;
+			path = _in1_Telecom_Design_Studio.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 23533DF624E4BD0D004EB7D3 /* Project object */;
+}
